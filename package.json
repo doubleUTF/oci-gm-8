@@ -1,0 +1,29 @@
+{
+  "name": "oci-grafana-metrics",
+  "version": "1.0.0",
+  "description": "Oracle Cloud Infrastructure Metrics Data Source for Grafana",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "sign": "grafana-toolkit plugin:sign",
+    "start": "yarn watch"
+  },
+  "author": "David Lau",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/data": "^8.3.4",
+    "@grafana/toolkit": "^8.3.4",
+    "@grafana/ui": "^8.3.4",
+    "@types/lodash": "^4.14.178",
+    "@testing-library/jest-dom": "5.4.0",
+    "@testing-library/react": "^10.0.2"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "@grafana/runtime": "^8.3.4"
+  }
+}
